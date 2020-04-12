@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import Welcome from './Welcome';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+import ContextDemo from './ContextDemo'
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ContextDemo />
   </React.StrictMode>,
   document.getElementById('root')
 );
